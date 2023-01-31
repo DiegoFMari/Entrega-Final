@@ -245,6 +245,14 @@ h2 {
   
   .FOTO-6 { grid-area: FOTO-6; }
   
+/* FX formulario */
+input:focus{
+    transition: .7s all;
+    border-radius: 10px;
+    transform: scale(1.1);
+
+}
+
 
 /*Responsive 480 */
 /* Index */
