@@ -1,5 +1,11 @@
 /*variables globales*/
 /*colores principales*/
+/* FX formulario */
+input:focus {
+  transition: .7s all;
+  border-radius: 10px;
+  transform: scale(1.1); }
+
 /*secciones*/
 .headerindex {
   width: 100%;
