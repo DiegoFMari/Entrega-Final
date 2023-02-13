@@ -160,6 +160,7 @@
         text-align: center;
         font-size: 30px;
         font-style: inherit;
+        justify-content: center;
     }
 
     /*promos  */
@@ -194,3 +195,106 @@
         border: 2px black solid;
     }
 }
+
+/*responsive 375*/
+@media (max-width: 375px) {
+    .nav {
+        display: flex;
+        border: 10px solid black;
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*urbano*/
+
+    .containerUr {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "foto-1" 
+            "foto-2"
+            "foto-3"
+            "foto-4";
+        justify-items: center;
+    }
+    /*deportivo*/
+    /* Deportivo */
+    .containerD {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "short1" 
+            "short-2"
+            "short-3" 
+            "calza-1"
+            "calza-2" 
+            "calza-3";
+        justify-items: center;
+        text-align: center;
+        font-size: 30px;
+        font-style: inherit;
+        justify-content: center;
+    }
+    /*accesorios*/
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "gorra1" 
+            "gorra-2"
+            "gorra-3" 
+            "gorra-4"
+            "gorra5" 
+            "gorra-6";
+        justify-items: center;
+        text-align: center;
+        font-size: 30px;
+        font-style: inherit
+    }
+
+    .container div img {
+        width: 25vh;
+        height: 25vh;
+        margin: 10px;
+        border: 2px black solid;
+    }
+
+    /*promociones*/
+    .PromoClass {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "foto-1" 
+            "foto2"
+            "foto3" 
+            "foto-4"
+            "foto-5" 
+            "foto-6";
+        text-align: center;
+        font-size: 30px;
+        font-style: inherit;
+        justify-content: space-evenly;
+    }
+
+    .PromoClass div img {
+        width: 25vh;
+        height: 25vh;
+        margin: 10px;
+        border: 2px black solid;
+    }
+
+
+    }
+
