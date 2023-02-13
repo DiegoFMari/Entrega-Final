@@ -10,13 +10,13 @@
         width: 230px;
         border: black 3px solid;
         margin: 20px;
-      }
+    }
 
-      .img {
+    .img {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .nav {
