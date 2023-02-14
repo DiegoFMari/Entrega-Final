@@ -124,14 +124,17 @@
     /* Accesorios */
     .container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         gap: 0px 0px;
         grid-auto-flow: row;
         grid-template-areas:
-            "gorra1 gorra-2"
-            "gorra-3 gorra-4"
-            "gorra5 gorra-6";
+            "gorra1" 
+            "gorra-2"
+            "gorra-3" 
+            "gorra-4"
+            "gorra5" 
+            "gorra-6";
         justify-items: center;
         text-align: center;
         font-size: 30px;
@@ -148,14 +151,17 @@
     /* Deportivo */
     .containerD {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         gap: 0px 0px;
         grid-auto-flow: row;
         grid-template-areas:
-            "short1 short-2"
-            "short-3 calza-1"
-            "calza-2 calza-3";
+            "short1" 
+            "short-2"
+            "short-3" 
+            "calza-1"
+            "calza-2" 
+            "calza-3";
         justify-items: center;
         text-align: center;
         font-size: 30px;
@@ -166,19 +172,23 @@
     /*promos  */
     .PromoClass {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         gap: 0px 0px;
         grid-auto-flow: row;
         grid-template-areas:
-            "foto-1 foto2"
-            "foto3 foto-4"
-            "foto-5 foto-6";
+            "foto-1" 
+            "foto2"
+            "foto3" 
+            "foto-4"
+            "foto-5" 
+            "foto-6";
         text-align: center;
         font-size: 30px;
         font-style: inherit;
         justify-content: space-evenly;
     }
+
 
     .PromoClass div img {
         width: 25vh;
@@ -193,6 +203,19 @@
         height: 25vh;
         margin: 10px;
         border: 2px black solid;
+    }
+    .containerUr {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "foto-1" 
+            "foto-2"
+            "foto-3"
+            "foto-4";
+        justify-items: center;
     }
 }
 
