@@ -106,6 +106,9 @@ p {
   color: #ADAFB0;
   background-color: #08090A; }
 
+body {
+  border: 2px solid black; }
+
 .insta i {
   color: #be5b5b; }
 
