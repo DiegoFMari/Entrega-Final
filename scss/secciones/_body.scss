@@ -73,3 +73,21 @@ p {
   .div_img--precio button:hover{
     font-weight: bold;
   }
+
+.div_verano{
+   display: flex;
+   justify-content: center;
+   border: 4px solid black;
+ 
+}
+.div_verano img{
+    height: 90vh;
+    width: 106vh;
+}
+/*slogans*/
+.slogan1{
+    text-align: center;
+    font-weight: bold;
+    color: $grisfondo;
+    background-color: $principalblack;
+}
