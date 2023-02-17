@@ -250,14 +250,21 @@ body {
 .FOTO-6 {
   grid-area: FOTO-6; }
 
+/*urbano*/
 .containerUr {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "foto-1 foto-2" "foto-3 foto-4";
+  grid-template-areas: "foto-1 foto-2 foto-3 foto-4";
   justify-items: center; }
+
+.containerUr div img {
+  width: 40vh;
+  height: 40vh;
+  margin: 10px;
+  border: 4px black solid; }
 
 .foto-1 {
   grid-area: foto-1; }
@@ -270,12 +277,6 @@ body {
 
 .foto-4 {
   grid-area: foto-4; }
-
-.containerUr div img {
-  height: 40vh;
-  width: 40vh;
-  margin: 4vh;
-  border: 2px black solid; }
 
 /* Accesorios */
 .container {
@@ -323,13 +324,6 @@ body {
   justify-content: space-evenly; }
 
 .PromoClass div img {
-  width: 25vh;
-  height: 25vh;
-  margin: 10px;
-  border: 2px black solid; }
-
-/* urbano */
-.containerUr div img {
   width: 25vh;
   height: 25vh;
   margin: 10px;
