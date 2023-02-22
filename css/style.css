@@ -109,6 +109,15 @@ p {
 body {
   border: 2px solid black; }
 
+/*carrousel*/
+.carousel-item img {
+  height: 90vh;
+  border: 2px solid black; }
+
+/*h3 deportivo*/
+.h3depor {
+  text-align: center; }
+
 .insta i {
   color: #be5b5b; }
 
@@ -177,36 +186,6 @@ body {
   height: 40vh;
   margin: 10px;
   border: 2px black solid; }
-
-.containerD {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "short1 short-2 short-3" "calza-1 calza-2 calza-3";
-  justify-items: center;
-  text-align: center;
-  font-size: 30px;
-  font-style: inherit; }
-
-.short1 {
-  grid-area: short1; }
-
-.short-2 {
-  grid-area: short-2; }
-
-.short-3 {
-  grid-area: short-3; }
-
-.calza-1 {
-  grid-area: calza-1; }
-
-.calza-2 {
-  grid-area: calza-2; }
-
-.calza-3 {
-  grid-area: calza-3; }
 
 .containerD div img {
   width: 40vh;
@@ -300,11 +279,11 @@ body {
 /* Deportivo */
 .containerD {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "short1 short-2" "short-3 calza-1" "calza-2 calza-3";
+  grid-template-areas: "short1 short-2 short-3 calza-1";
   justify-items: center;
   text-align: center;
   font-size: 30px;
