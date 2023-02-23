@@ -99,7 +99,17 @@
         border: 2px black solid;
     }
 
-
+/*generales*/
+/*verano*/
+.div_verano img {
+    height: 48vh;
+    width: 38.5vh;
+}
+/*carrusel*/
+.carousel-item {
+    width: 725px;
+    height: 728px;
+}
 
 }
 
@@ -217,7 +227,27 @@
             "foto-4";
         justify-items: center;
     }
+    /*portadas 480*/
+    .portadas img {
+        max-width: 47vh;
+        max-height: 40vh;
+    }
+
+    /*carrusel*/
+
+    .carousel-item {
+        width: 439px;
+        height: 442px;
+    }
+
+    /*verano*/
+    .div_verano img {
+        height: 37vh;
+        width: 23vh;
+    }
+
 }
+
 
 /*responsive 375*/
 @media (max-width: 375px) {

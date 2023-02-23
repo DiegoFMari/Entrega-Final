@@ -359,7 +359,16 @@ body {
     width: 30vh;
     height: 30vh;
     margin: 10px;
-    border: 2px black solid; } }
+    border: 2px black solid; }
+  /*generales*/
+  /*verano*/
+  .div_verano img {
+    height: 48vh;
+    width: 38.5vh; }
+  /*carrusel*/
+  .carousel-item {
+    width: 725px;
+    height: 728px; } }
 
 /*Responsive 480 */
 /* Index */
@@ -435,7 +444,19 @@ body {
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas: "foto-1"  "foto-2" "foto-3" "foto-4";
-    justify-items: center; } }
+    justify-items: center; }
+  /*portadas 480*/
+  .portadas img {
+    max-width: 47vh;
+    max-height: 40vh; }
+  /*carrusel*/
+  .carousel-item {
+    width: 439px;
+    height: 442px; }
+  /*verano*/
+  .div_verano img {
+    height: 37vh;
+    width: 23vh; } }
 
 /*responsive 375*/
 @media (max-width: 375px) {
