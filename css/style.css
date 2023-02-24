@@ -368,7 +368,13 @@ body {
   /*carrusel*/
   .carousel-item {
     width: 725px;
-    height: 728px; } }
+    height: 728px; }
+  /*portadas*/
+  .portadas img {
+    height: 54vh;
+    width: 77.7vh;
+    border-bottom: 2px solid #08090A;
+    border-top: 2px solid #08090A; } }
 
 /*Responsive 480 */
 /* Index */
