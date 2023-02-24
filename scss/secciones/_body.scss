@@ -3,6 +3,7 @@ body {
     margin: 8px;
 }
 
+
 .nav {
     display: flex;
     justify-content: space-around;
@@ -81,8 +82,8 @@ p {
 
 }
 .div_verano img{
-    height: 70vh;
-    width: 106vh;
+  
+    width: 100%;
 }
 /*slogans*/
 .slogan1{
@@ -129,7 +130,7 @@ body{
 /*deportiva*/
 .portadas img{
   height: 100vh;
-  width: 212.7vh;
+  width: 201vh;
   border-bottom: 2px solid $principalblack;
   border-top: 2px solid $principalblack;
    }
