@@ -127,8 +127,7 @@ body {
   border: 2px solid black; }
 
 .carousel-item {
-  width: 800px;
-  height: 800px; }
+  max-width: 800px; }
 
 /*h3 deportivo*/
 .h3depor {
@@ -461,7 +460,7 @@ body {
   /*verano*/
   .div_verano img {
     height: 37vh;
-    width: 23vh; } }
+    width: 22.5vh; } }
 
 /*responsive 375*/
 @media (max-width: 375px) {
