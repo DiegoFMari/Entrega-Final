@@ -121,7 +121,7 @@
 /*verano*/
 .div_verano img {
     height: 48vh;
-    width: 37vh;
+    width: 39.5vh;
 }
 .div_img--precio p {
     font-weight: bold;
@@ -130,8 +130,7 @@
 
 /*carrusel*/
 .carousel-item {
-    width: 725px;
-    height: 728px;
+max-width: 600px;
 }
 /*portadas*/
 .portadas img {
@@ -264,15 +263,14 @@
 
     /*carrusel*/
 
-    .carousel-item {
-        width: 428px;
-        height: 442px;
-    }
+    .carousel-item{
+        max-width: 300px;
+      }
 
     /*verano*/
     .div_verano img {
         height: 37vh;
-        width: 22vh;
+        width: 23.4vh;
     }
     .headerindex{
         height: 45vh;
