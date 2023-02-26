@@ -30,6 +30,10 @@ body {
   background-color: #ADAFB0;
   margin: 8px; }
 
+.headerindex {
+  height: 51vh;
+  max-width: -webkit-fill-available; }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -119,12 +123,14 @@ body {
 .carousel-caption:hover p {
   background-color: beige;
   color: #08090A;
-  border: 2px solid black; }
+  border: 2px solid black;
+  border-radius: 10px; }
 
 .carousel-caption:hover h5 {
   background-color: beige;
   color: #08090A;
-  border: 2px solid black; }
+  border: 2px solid black;
+  border-radius: 10px; }
 
 .carousel-item {
   max-width: 800px; }
@@ -134,11 +140,38 @@ body {
   text-align: center; }
 
 /*portadas*/
-/*deportiva*/
 .portadas img {
   max-width: 100%;
   border-bottom: 2px solid #08090A;
   border-top: 2px solid #08090A; }
+
+/*footer*/
+/*redes*/
+.textel {
+  font-weight: bold; }
+
+.textel:hover {
+  background-color: #08090A;
+  color: #ADAFB0;
+  border: 2px gray solid;
+  border-radius: 10px; }
+
+.cel:hover {
+  color: blue;
+  background-color: #08090A;
+  border-radius: 10px; }
+
+.redes :hover {
+  background-color: #08090A;
+  color: #ADAFB0;
+  border: 2px gray solid;
+  border-radius: 10px; }
+
+.redes {
+  text-align: center; }
+
+.h3footer {
+  text-align: center; }
 
 .insta i {
   color: #be5b5b; }
@@ -307,6 +340,20 @@ body {
     background-color: black;
     flex-direction: column;
     align-items: center; }
+  /*urbano*/
+  .containerUr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "foto-1 foto-2"    "foto-3 foto-4";
+    justify-items: center; }
+  .containerUr div img {
+    width: 30vh;
+    height: 30vh;
+    margin: 10px;
+    border: 2px black solid; }
   /* Accesorios */
   .containerAcc {
     display: grid;
@@ -366,8 +413,6 @@ body {
   .div_img--precio p {
     font-weight: bold;
     font-size: 20px; }
-  .div_img--precio button {
-    margin: 0 0 0 0; }
   /*carrusel*/
   .carousel-item {
     width: 725px;
@@ -456,16 +501,17 @@ body {
     justify-items: center; }
   /*portadas 480*/
   .portadas img {
-    max-width: 45.3vh;
     max-height: 40vh; }
   /*carrusel*/
   .carousel-item {
-    width: 439px;
+    width: 428px;
     height: 442px; }
   /*verano*/
   .div_verano img {
     height: 37vh;
-    width: 22.5vh; } }
+    width: 22vh; }
+  .headerindex {
+    height: 45vh; } }
 
 /* FX formulario */
 input:focus {

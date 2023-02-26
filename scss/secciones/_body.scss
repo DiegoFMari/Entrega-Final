@@ -3,6 +3,11 @@ body {
   margin: 8px;
 }
 
+.headerindex{
+  height: 51vh;
+  max-width: -webkit-fill-available;
+}
+
 
 .nav {
   display: flex;
@@ -116,17 +121,20 @@ body {
   background-color: beige;
   color: $principalblack;
   border: 2px solid black;
+  border-radius: 10px;
 }
 
 .carousel-caption:hover h5 {
   background-color: beige;
   color: $principalblack;
   border: 2px solid black;
+  border-radius: 10px;
 }
 
 .carousel-item {
   max-width: 800px;
 }
+
 
 /*h3 deportivo*/
 .h3depor {
@@ -139,4 +147,34 @@ body {
   max-width: 100%;
   border-bottom: 2px solid $principalblack;
   border-top: 2px solid $principalblack;
+}
+
+/*footer*/
+/*redes*/
+.textel{
+  font-weight: bold;
+}
+.textel:hover{
+  background-color: $principalblack;
+  color: $grisfondo;
+  border: 2px gray solid;
+  border-radius: 10px;
+}
+.cel:hover{
+  color: blue;
+  background-color: $principalblack;
+  border-radius: 10px;
+}
+.redes :hover{
+  background-color: $principalblack;
+  color: $grisfondo;
+  border: 2px gray solid;
+  border-radius: 10px;
+
+}
+.redes{
+  text-align: center;
+}
+.h3footer{
+  text-align: center;
 }
