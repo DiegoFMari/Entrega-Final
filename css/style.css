@@ -506,8 +506,7 @@ body {
     max-width: 300px; }
   /*verano*/
   .div_verano img {
-    height: 37vh;
-    width: 23.1vh; }
+    max-width: 217px; }
   .headerindex {
     height: 45vh; }
   /*tarjetas*/
