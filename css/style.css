@@ -340,6 +340,12 @@ body {
     background-color: black;
     flex-direction: column;
     align-items: center; }
+  /*verano*/
+  .div_verano img {
+    height: 48vh; }
+  .div_img--precio p {
+    font-weight: bold;
+    font-size: 18px; }
   /*urbano*/
   .containerUr {
     display: grid;
@@ -406,13 +412,6 @@ body {
     margin: 10px;
     border: 2px black solid; }
   /*generales*/
-  /*verano*/
-  .div_verano img {
-    height: 48vh;
-    width: 37.3vh; }
-  .div_img--precio p {
-    font-weight: bold;
-    font-size: 18px; }
   /*carrusel*/
   .carousel-item {
     max-width: 600px; }
@@ -505,8 +504,6 @@ body {
   .carousel-item {
     max-width: 300px; }
   /*verano*/
-  .div_verano img {
-    max-width: 217px; }
   .headerindex {
     height: 45vh; }
   /*tarjetas*/
