@@ -507,9 +507,13 @@ body {
   /*verano*/
   .div_verano img {
     height: 37vh;
-    width: 24.6vh; }
+    width: 22.6vh; }
   .headerindex {
-    height: 45vh; } }
+    height: 45vh; }
+  /*tarjetas*/
+  .div_img--precio p {
+    font-weight: bold;
+    font-size: 15px; } }
 
 /* FX formulario */
 input:focus {
